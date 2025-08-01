@@ -3,7 +3,13 @@ import React from 'react'
 import styles from './Contact.module.css'
 const ContactForm = () => {
   return (
-    <div>ContactForm</div>
+    <section className='styles.container'>
+      
+      <div className='styles.contact_form'></div>
+
+      <div className='styles.contact_image'></div>
+    </section>
+
   )
 }
 
