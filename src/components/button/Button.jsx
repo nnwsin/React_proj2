@@ -1,14 +1,11 @@
-import { MdOutlineMessage } from "react-icons/md";
 import styles from "./Button.module.css";
 
-const Button = () => {
+const Button = (props) => {
   return (
     <div>
       <button className={styles.primary_btn}>
-        <MdOutlineMessage 
-        fontSize="24px"
-        />
-        VIA SUPPORT CHAT
+        {props.icon}
+        {props.text}
       </button>
     </div>
   );

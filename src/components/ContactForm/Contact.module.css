@@ -1,5 +1,20 @@
-.container{
+.container {
     display: flex;
     max-width: 1000px;
     margin: 0 auto;
+    gap: 40px; /* space between form and image */
+    align-items: flex-start; /* align at top */
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column; /* stack buttons vertically */
+    gap: 16px; /* space between buttons */
+}
+
+.contact_image {
+    flex: 1;
+    /* placeholder style so you can see it */
+    background-color: lightgray;
+    min-height: 200px;
 }
